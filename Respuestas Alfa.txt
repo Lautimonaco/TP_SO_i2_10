@@ -1,0 +1,13 @@
+Respuestas de alfa
+a-Vinculando a través de comandos el repositorio fork con el original.
+b-Si, Alfa puede actualizar su fork al estado del fork de Gamma, vinculando su repositorio FORK como si fuese el original.(Intenta fusionar los archivos de texto y da error de fusion, hay que hacer merge).
+d- los datos editados por mi no se pierden, en caso de que el editado sea un mismo archivo del original los fusiona.
+e-Mis comandos(Lautaro Lezama)
+69 git clone https://github.com/LautiLezama/TP_SO_i2_10.git
+70 git remote -v
+71 git remote add upstream https://github.com/JoeMafu/TP_SO_i2_10.git
+72 git remote -v
+73 git fetch upstream
+74 git checkout master
+75 git merge upstream/master
+76 git push
